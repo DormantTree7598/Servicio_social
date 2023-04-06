@@ -1,15 +1,21 @@
 
 import './App.css'
-import Inicio from './components/inicio/inicioPage'
+import ProjectMain from './views/ProjectMain'
+import styled from 'styled-components'
 
-function App() {
+const AppDiv = styled.div`
+  max-width: 2560px;
+  max-height: 1440px;
+  margin: 0;
+  padding: 0;
+`;
 
-
+const App = () => {
   return (
-    <div >
-      <Inicio/>
-    </div>
+    <AppDiv>
+      <ProjectMain/>
+    </AppDiv>
   )
 }
 
-export default App
+export default App;
