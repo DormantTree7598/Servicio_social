@@ -1,0 +1,141 @@
+.inicioDiv{
+    position: relative;
+width: 1920px;
+height: 1080px;
+margin: 0;
+padding: 0;
+background: #EDECEC;
+}
+.Titulo{
+    position: absolute;
+    width: 982px;
+    height: 148px;
+    left: 301px;
+    top: 285px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 83px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    
+    color: #393939;
+} 
+.Subtitulo{
+    position: absolute;
+    width: 741px;
+    height: 32px;
+    left: 307px;
+    top: 492px;
+
+    font-family: 'DM Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 202.7%;
+    /* or 32px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.435em;
+
+color: #393939;
+
+}
+.LogoIbero{
+    position: absolute;
+    width: 156px;
+    height: 80px;
+    left: 51px;
+    top: 51.67px;
+    
+}
+.Line{
+    position: absolute;
+    width: 626px;
+    height: 0px;
+    left: 307px;
+    top: 471px;
+    border: 1px solid #5C5C5C;
+}
+.Sobreus{
+    position: absolute;
+    width: 905px;
+    height: 73px;
+    left: 307px;
+    top: 778px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 83px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+
+    color: rgba(57, 57, 57, 0.4);
+}
+.Buttom{
+    position: absolute;
+    width: 194px;
+    height: 51px;
+    left: 307px;
+    top: 583px;
+
+    background: #FF4060;
+    border-radius: 5px;
+}
+.Conoce-button {
+    position: absolute;
+    width: 127px;
+    height: 22px;
+    left: 18px;
+    top: 15px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 21px;
+    /* identical to box height, or 107% */
+    
+    display: flex;
+    color: #000000;
+}
+.Ingenieria{
+    position: absolute;
+    width: 297px;
+    height: 43px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #151515;
+
+}
+.line-title{
+    position: absolute;
+    width: 626px;
+    height: 0px;
+    left: 307px;
+    top: 471px;
+    border: 1px solid #5C5C5C;
+}
+.Arrow-conoce {
+    position: absolute;
+    width: 20px;
+    height: 14px;
+    left: 158px;
+    top: 15px;
+    
+
+}
