@@ -2,21 +2,27 @@ import React from "react";
 import { ProjectMainDiv } from "../styles/styleProjectmain";
 import NavBarComponent from "../components/navbar/navBar";
 import Header from "../components/Header/Header";
-import styled from "styled-components";
 import InicioT from "../components/inicio/inicioPage";
+import styled from "styled-components";
+import Rectangulos from "../components/carruselProyectos/Rctangulos";
 
-export const ProjectMain = () => {
+const ProjectMain = () => {
   return (
     <ProjectMainDiv>
-      <HeaderWraper>
-        <Header />
-      </HeaderWraper>
-      <Navbar>
-        <NavBarComponent />
-      </Navbar>
-      <Titulo>
-        <InicioT />
-      </Titulo>
+      <GradientImage>
+        <HeaderWraper>
+          <Header />
+        </HeaderWraper>
+        <Navbar>
+          <NavBarComponent />
+        </Navbar>
+        <Titulo>
+          <InicioT />
+        </Titulo>
+        <Carrusel>
+          <Rectangulos />
+        </Carrusel>
+      </GradientImage>
     </ProjectMainDiv>
   );
 };
@@ -31,6 +37,14 @@ const HeaderWraper = styled.div`
   top: 0%;
   left: 0%;
 `;
+const GradientImage = styled.div`
+  background-image: url("background-image: url("/idit.png")");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+`;
 const Navbar = styled.div`
   position: absolute;
   width: 11%;
@@ -39,7 +53,7 @@ const Navbar = styled.div`
   padding: 0;
   top: 10.3%;
   left: 0%;
-  opacity: 1;
+  opacity: 0.5;
   z-index: 1;
 `;
 const Titulo = styled.div`
@@ -50,4 +64,11 @@ const Titulo = styled.div`
   padding: 0;
   left: 11%;
   top: 10.3%;
+`;
+const Carrusel = styled.div`
+  position: absolute;
+  width: 85%;
+  height: 36%;
+  left: 16%;
+  top: 80%;
 `;

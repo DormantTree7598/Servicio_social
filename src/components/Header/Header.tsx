@@ -42,6 +42,7 @@ const ImageDiv = styled.div`
   height: 72%;
   top: 28%;
   left: 2.6%;
+  z-index: 1;
 `;
 
 const Buscador = styled.div`
@@ -125,10 +126,10 @@ const SelectDiv = styled.div`
   position: absolute;
   margin: 0;
   padding: 0;
-  width: 60px;
-  height: 40px;
+  width: 4%;
+  height: 36%;
   top: 36%;
-  left: 86.5%;
+  left: 86%;
 `;
 const Select = styled.select`
   position: absolute;

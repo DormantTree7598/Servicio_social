@@ -1,6 +1,7 @@
 import "./App.css";
 import ProjectMain from "./views/ProjectMain";
 import styled from "styled-components";
+import { SecondView } from "./views/SecondView";
 
 const AppDiv = styled.div`
   max-width: 2560px;
@@ -15,7 +16,8 @@ const AppDiv = styled.div`
 const App = () => {
   return (
     <AppDiv>
-      <ProjectMain />
+      {/*<ProjectMain />*/}
+      <SecondView />
     </AppDiv>
   );
 };
